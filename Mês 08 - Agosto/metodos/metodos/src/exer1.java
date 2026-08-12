@@ -10,13 +10,13 @@ public class exer1 {
             case 1:
                 imprimirVerao();
                 break;
-            case 2 :
+            case 2:
                 imprimirOutono();
                 break;
-            case 3 :
+            case 3:
                 imprimirInverno();
                 break;
-            case 4 :
+            case 4:
                 imprimirPrimavera();
                 break;
         }
