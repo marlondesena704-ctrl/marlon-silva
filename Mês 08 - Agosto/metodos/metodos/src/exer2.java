@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class exer2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Informe um nome: (Nicolas ou Greg)");
-        String nome = sc.next().toUpperCase();
-        if (nome.equals("NICOLAS")) {
+        String nome = sc.next();
+
+        if (nome.equalsIgnoreCase("Nicolas")) {
             introduzirNicolas();
-        } else if (nome.equals("GREG")) {
+        } else if (nome.equalsIgnoreCase("Greg")) {
             introduzirGregory();
         }
     }

@@ -6,6 +6,9 @@ public class exer1 {
 
         System.out.println("Digite uma opção de 1 a 4: ");
         int opcao = sc.nextInt();
+        System.out.println("\n");
+        System.out.println("\n");
+
         switch (opcao) {
             case 1:
                 imprimirVerao();
@@ -24,22 +27,22 @@ public class exer1 {
     }
 
     public static void imprimirVerao() {
-        System.out.println("É verão");
+        System.out.println("É verão\n");
         System.out.println("E o tempo está quente");
     }
 
     public static void imprimirOutono() {
-        System.out.println("É outono");
+        System.out.println("É outono\n");
         System.out.println("E as folhas caem");
     }
 
     public static void imprimirInverno() {
-        System.out.println("É inverno");
+        System.out.println("É inverno\n");
         System.out.println("E está frio");
     }
 
     public static void imprimirPrimavera() {
-        System.out.println("É primavera");
+        System.out.println("É primavera\n");
         System.out.println("E as flores desabrocham");
     }
 }
