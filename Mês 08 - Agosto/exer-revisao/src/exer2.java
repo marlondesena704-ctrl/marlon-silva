@@ -16,7 +16,7 @@ public class exer2 {
         double vendas = sc.nextDouble();
 
         double comissao = vendas * 0.15;
-        double salarioFinal = salarioFixo+comissao;
+        double salarioFinal = salarioFixo + comissao;
 
 //        System.out.printf(nome + " irá receber no total esse mês um salário de R$ %.2f" , salarioFinal);
         System.out.println(nome + "irá receber no total esse mês um salário de R$" + df.format(salarioFinal));

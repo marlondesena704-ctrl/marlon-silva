@@ -14,7 +14,6 @@ public class exer4 {
         int maiorInscricao = 0;
         int menorInscricao = 0;
 
-
         System.out.println("Informe o número de inscrição do atleta: ");
         String inscricao = sc.next();
 
@@ -41,8 +40,6 @@ public class exer4 {
             atleta++;
             somaAltura += alturaAtual;
 
-
         }
-
     }
 }

@@ -44,5 +44,4 @@ public class exer3 {
 
         sc.close();
     }
-
 }

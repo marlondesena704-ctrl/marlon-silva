@@ -28,7 +28,5 @@ public class exer5 {
             System.out.println("Maior: " + array[iMaior]);
             break;
         }
-
     }
-
 }
