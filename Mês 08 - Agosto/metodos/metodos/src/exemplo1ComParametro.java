@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exemploComParametro {
+public class exemplo1ComParametro {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
