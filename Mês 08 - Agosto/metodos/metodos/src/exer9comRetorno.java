@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class exer9comRetorno {
     public static void main(String[] args) {
 
-        int valor = 99;
+        int valor = 98;
         System.out.println(imprimirParOuImpar(valor));
     }
 
