@@ -4,7 +4,7 @@ public class exer11comRetorno {
     public static void main(String[] args) {
 
 
-        int[] vetor = {77, 59, 60, 54, 43, 89};
+        int[] vetor = {77, 59, 99, 9877, 43, -200};
         System.out.println(Arrays.toString(vetor));
         System.out.println("Maior valor do vetor: ");
         System.out.println(imprimirMaiorValor(vetor));
