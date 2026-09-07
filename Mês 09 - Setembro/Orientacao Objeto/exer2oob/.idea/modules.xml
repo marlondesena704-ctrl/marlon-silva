@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exer2oob.iml" filepath="$PROJECT_DIR$/exer2oob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../exer3oob/exer3oob.iml" filepath="$PROJECT_DIR$/../exer3oob/exer3oob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../exer5oob/exer5oob.iml" filepath="$PROJECT_DIR$/../exer5oob/exer5oob.iml" />
+    </modules>
+  </component>
+</project>
