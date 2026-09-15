@@ -14,7 +14,19 @@ public class Aeronave {
         this.queimaCombustivelPorMinuto = queimaCombustivelMinuto;
         }
 
+    @Override
+    public String toString() {
+        return "[" +
+                "modelo: '" + modelo + '\'' +
+                ", passageiros: " + passageiros +
+                ", velocidade máxima: " + velocidadeMaxima +
+                " km/h, capacidade máxima: " + capacidadeMaxima +
+                "L, queima do combustível por minuto: " + queimaCombustivelPorMinuto +
+                "L/m" + " ]";
+    }
+
     public double maisTempoNoAr(){
+
         return this.capacidadeMaxima / this.queimaCombustivelPorMinuto;
     }
     public double voarMaisLonge(){

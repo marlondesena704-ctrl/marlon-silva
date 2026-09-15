@@ -17,8 +17,10 @@ public class exer7 {
                 aeronaveMaisPassageiros = aero[i];
             }
         }
+        System.out.println("\n");
         assert aeronaveMaisPassageiros != null;
-        System.out.println("Aeronave com a maior capacidade de passageiros: " + aeronaveMaisPassageiros.modelo + "\nNúmero de passageiros suportados: " + maiorNumeroPassageiros + "\n");
+        System.out.println("Aeronave com a maior capacidade de passageiros: " + aeronaveMaisPassageiros+ "\nNúmero de passageiros suportados: " + maiorNumeroPassageiros + "\n");
+
 
         // Qual das aeronaves pode ficar mais tempo no ar?
         double maisTempoAr = 0;
@@ -30,7 +32,7 @@ public class exer7 {
             }
         }
         assert aeronaveMaisTempoAr != null;
-        System.out.println("Aeronave capaz de ficar mais tempo no ar: " + aeronaveMaisTempoAr.modelo + "\nTempo total: " + maisTempoAr + " minutos\n");
+        System.out.println("Aeronave capaz de ficar mais tempo no ar: " + aeronaveMaisTempoAr + "\nTempo total: " + maisTempoAr + " minutos\n");
 
         // Qual deles consegue voar mais longe? (Considerando que estão em velocidade máxima)
         double voarMaisLonge = 0;
@@ -42,6 +44,6 @@ public class exer7 {
             }
         }
         assert aeronaveMaisLonge != null;
-        System.out.println("Aeronave capaz de voar mais longe: " + aeronaveMaisLonge.modelo + "\nDistância em KM: " + voarMaisLonge);
+        System.out.println("Aeronave capaz de voar mais longe: " + aeronaveMaisLonge + "\nDistância em KM: " + voarMaisLonge);
     }
 }
