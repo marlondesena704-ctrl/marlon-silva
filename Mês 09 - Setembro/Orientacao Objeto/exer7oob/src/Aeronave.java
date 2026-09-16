@@ -1,10 +1,10 @@
 public class Aeronave {
 
-    String modelo;
-    int passageiros;
-    double velocidadeMaxima;
-    double capacidadeMaxima;
-    double queimaCombustivelPorMinuto;
+    private String modelo;
+    private int passageiros;
+    private double velocidadeMaxima;
+    private double capacidadeMaxima;
+    private double queimaCombustivelPorMinuto;
 
     public Aeronave(String modelo, int passageiros, double velocidadeMaxima, double capacidadeMaxima, double queimaCombustivelMinuto) {
         this.modelo = modelo;
@@ -12,7 +12,47 @@ public class Aeronave {
         this.velocidadeMaxima = velocidadeMaxima;
         this.capacidadeMaxima = capacidadeMaxima;
         this.queimaCombustivelPorMinuto = queimaCombustivelMinuto;
-        }
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getPassageiros() {
+        return passageiros;
+    }
+
+    public void setPassageiros(int passageiros) {
+        this.passageiros = passageiros;
+    }
+
+    public double getVelocidadeMaxima() {
+        return velocidadeMaxima;
+    }
+
+    public void setVelocidadeMaxima(double velocidadeMaxima) {
+        this.velocidadeMaxima = velocidadeMaxima;
+    }
+
+    public double getCapacidadeMaxima() {
+        return capacidadeMaxima;
+    }
+
+    public void setCapacidadeMaxima(double capacidadeMaxima) {
+        this.capacidadeMaxima = capacidadeMaxima;
+    }
+
+    public double getQueimaCombustivelPorMinuto() {
+        return queimaCombustivelPorMinuto;
+    }
+
+    public void setQueimaCombustivelPorMinuto(double queimaCombustivelPorMinuto) {
+        this.queimaCombustivelPorMinuto = queimaCombustivelPorMinuto;
+    }
 
     @Override
     public String toString() {
@@ -25,12 +65,12 @@ public class Aeronave {
                 "L/m" + " ]";
     }
 
-    public double maisTempoNoAr(){
-
+    public double maisTempoNoAr() {
         return this.capacidadeMaxima / this.queimaCombustivelPorMinuto;
     }
-    public double voarMaisLonge(){
-        double tempoHoras = this.maisTempoNoAr()/60;
+
+    public double voarMaisLonge() {
+        double tempoHoras = this.maisTempoNoAr() / 60;
         return this.velocidadeMaxima * tempoHoras;
     }
 }

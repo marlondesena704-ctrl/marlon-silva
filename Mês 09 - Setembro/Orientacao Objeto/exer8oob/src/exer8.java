@@ -10,7 +10,7 @@ public class exer8 {
         Contribuinte[] contribuinte = {cb1, cb2, cb3, cb4, cb5};
 
         // Quem mais paga imposto?
-        double pagaMaisImposto = contribuinte[0].impostoAPagar();
+        double pagaMaisImposto = 0;
         Contribuinte pagaMaisImpostos = null;
         for(int i = 0; i< contribuinte.length; i++){
             if(contribuinte[i].impostoAPagar()> pagaMaisImposto){
@@ -18,8 +18,9 @@ public class exer8 {
                 pagaMaisImpostos = contribuinte[i];
             }
         }
+        System.out.println("\n");
         assert pagaMaisImpostos != null;
-        System.out.println("Contribuinte que paga mais imposto: " + pagaMaisImpostos.nome + "\nValor pago em imposto: R$" + pagaMaisImposto);
+        System.out.println("Contribuinte que paga mais imposto: " + pagaMaisImpostos + "\nValor pago em imposto: R$" + pagaMaisImposto + "\n");
 
         //Qual o total de imposto pago pelos contribuintes?
         double impostoTotalPago = 0;

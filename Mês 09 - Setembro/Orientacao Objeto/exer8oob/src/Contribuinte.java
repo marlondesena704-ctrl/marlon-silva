@@ -14,12 +14,12 @@ public class Contribuinte {
 
     @Override
     public String toString() {
-        return "Contribuinte{" +
-                "nome='" + nome + '\'' +
-                ", cpf='" + cpf + '\'' +
-                ", uf='" + uf + '\'' +
-                ", rendaAnual=" + rendaAnual +
-                '}';
+        return "[" +
+                "Nome: '" + nome + '\'' +
+                ", CPF: '" + cpf + '\'' +
+                ", UF: '" + uf + '\'' +
+                ", Renda anual: R$" + rendaAnual +
+                "]";
     }
 
     double aliquota = 0;
