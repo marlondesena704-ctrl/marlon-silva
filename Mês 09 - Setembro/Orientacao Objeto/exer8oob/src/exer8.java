@@ -1,7 +1,7 @@
 public class exer8 {
     public static void main(String[] args) {
 
-        try {
+//        try {
             Contribuinte cb1 = new Contribuinte("Carlos", "53999987635", "SC", 50000);
             Contribuinte cb2 = new Contribuinte("Pedro", "09087955643", "RS", 60000);
             Contribuinte cb3 = new Contribuinte("Leonardo", "53993589921", "PR", 67000);
@@ -30,11 +30,11 @@ public class exer8 {
             }
             System.out.printf("Total de imposto pago pelos 5 contribuintes: R$%.2f", impostoTotalPago);
 
-        } catch (IllegalArgumentException e) {
-
-            System.out.println("Erro ao processar os contribuintes: " + e.getMessage());
-
-        }
+//        } catch (IllegalArgumentException e) {
+//
+//            System.out.println("Erro ao processar os contribuintes: " + e.getMessage());
+//
+//        }
     }
 
 }

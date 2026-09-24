@@ -4,7 +4,6 @@ public class Contribuinte {
     private String cpf;
     private String uf;
     private double rendaAnual;
-    private double aliquota = 0;
 
     // Construtor chamando os setters
     public Contribuinte(String nome, String cpf, String uf, double rendaAnual) {
@@ -56,14 +55,6 @@ public class Contribuinte {
             throw new IllegalArgumentException("A renda anual não pode ser um valor negativo.");
         }
         this.rendaAnual = rendaAnual;
-    }
-
-    public double getAliquota() {
-        return aliquota;
-    }
-
-    public void setAliquota(double aliquota) {
-        this.aliquota = aliquota;
     }
 
     private double calcularAliquota() {
