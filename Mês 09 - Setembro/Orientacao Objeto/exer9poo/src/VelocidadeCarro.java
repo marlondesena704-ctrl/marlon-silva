@@ -11,6 +11,8 @@ public class VelocidadeCarro {
                 '}';
     }
 
+
+
     public int getVelocidadeCarro() {
         return velocidadeCarro;
     }
@@ -24,6 +26,8 @@ public class VelocidadeCarro {
     }
 
 
+
+
     public int Acelerar(int acelerar) {
         if (acelerar < 0 || acelerar > 20) {
             throw new IllegalArgumentException("Aceleração inválida.");
@@ -31,11 +35,9 @@ public class VelocidadeCarro {
         return setVelocidadeCarro(velocidadeCarro+acelerar);
     }
 
-
-
     public int Desacelerar(int desacelerar) {
         if (desacelerar >= 0 && desacelerar < 30) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Desaceleração inválida.");
         }
         return setVelocidadeCarro(velocidadeCarro-desacelerar);
     }
