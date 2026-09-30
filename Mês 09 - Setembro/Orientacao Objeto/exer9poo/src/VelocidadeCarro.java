@@ -29,7 +29,7 @@ public class VelocidadeCarro {
 
     public void Acelerar(int acelerar) {
         if (acelerar < 0 || acelerar > 20) {
-            throw new IllegalArgumentException("Aceleração inválida.");
+            throw new IllegalArgumentException("Aceleração acima do limite permitido.");
         }
         setVelocidadeCarro(velocidadeCarro + acelerar);
     }
