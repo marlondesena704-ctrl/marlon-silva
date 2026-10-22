@@ -73,9 +73,9 @@ public class Produto {
         if(quantidadeVenda > getQuantidade()){
             throw new IllegalArgumentException("a quantidade a ser vendida é maior do que há no estoque");
 
-        }else if(quantidadeVenda <=getQuantidade()){
-            quantidadeVenda -=quantidade;
-            setQuantidade(quantidadeVenda);
+        }else {
+            setQuantidade(getQuantidade() - quantidadeVenda);
+        }
         }
 
     }
